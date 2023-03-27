@@ -14,13 +14,9 @@ export default createGlobalStyle`
         -webkit-font-smoothing: antialiased;
     }
 
-    body, input {
-        font-family: 'Poppins', sans-serif;
-        font-size: 16px;
-        outline: none;
-    }
+    
 
-    textarea, button {
+    textarea, input {
         font-family: 'Roboto', sans-serif;
         font-size: 16px;
         outline: none;

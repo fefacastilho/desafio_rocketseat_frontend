@@ -2,7 +2,7 @@ import { Container, Banner} from './styles';
 
 import { ButtonRed } from '../../components/ButtonRed';
 
-import { Header } from '../../components/Header';
+import { HeaderPedidos } from '../../components/Header';
 
 import { Comidas } from '../../components/Comidas';
 
@@ -12,7 +12,7 @@ export default function Details(){
 
   return( 
     <Container>
-      <Header/>
+      <HeaderPedidos/>
     <Comidas/>
     <Banner/>
     <Rodape/>

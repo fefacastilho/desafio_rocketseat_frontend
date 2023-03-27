@@ -6,12 +6,14 @@ import { Input } from  "../../components/Input";
 import { AiOutlineSearch } from "react-icons/ai";
 import { ButtonRed } from '../ButtonRed';
 
-export function Header(){
+export function HeaderPedidos(){
     return(
         <Container>
             <Logo>
             <BsFillHexagonFill/>
             <h1>food explorer</h1>
+
+            
             </Logo>
             <Form>
             <Input
@@ -22,7 +24,7 @@ export function Header(){
             </Form>
             <Button> 
                 
-                <ButtonRed title={"Pedidos"}/>
+                <ButtonRed title={"Novo Prato"}/>
               
             </Button>
             <Logout>

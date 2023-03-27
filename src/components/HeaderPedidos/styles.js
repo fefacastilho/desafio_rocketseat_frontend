@@ -31,13 +31,13 @@ export const Logout = styled.button`
 
 export const Logo = styled.div`
 
-    width: 186px;
+    width: 15%;
     height: 28px;
     display: flex;
     justify-content: center;
     flex-direction: row;
     gap: 10px;
-    margin-left: 100px;
+   
     margin-top: 37px;
     > svg {
             color: ${({ theme }) => theme.COLORS.CAKE_100};
@@ -52,6 +52,14 @@ export const Logo = styled.div`
         line-height: 28px;
         color: ${({theme}) => theme.COLORS.LIGHT_100};
          }
+
+         > h2 {
+            color: ${({theme}) => theme.COLORS.CAKE_200};
+            font-size: 10px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+         }
 `;
 
 export const Form = styled.form`
@@ -64,7 +72,7 @@ export const Form = styled.form`
     height: 35px;
     margin-top: 28px;
 
-    width: 581px;
+    width: 40%;
     height: 48px;
 `;
 
